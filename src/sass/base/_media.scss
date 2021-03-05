@@ -1,7 +1,13 @@
 @media (max-width: 991px) {
     .container {
-        max-width: 960px;
         padding: 0px 15px;
+    }
+    .title {
+        &_left {
+            text-align: center;
+            font-size: 32px;
+            line-height: 47px;
+        }
     }
     .promo {
         &__wrapper {
@@ -13,6 +19,26 @@
             width: 218px;
         }
     }
+    .consultation {
+        min-height: 600px;
+        padding: 90px 0 90px 0;
+        &__subheader {
+            text-align: center;
+        }
+        .feed-form {
+            margin: 0 auto;
+            margin-top: 36px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 600px;
+            img {
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
 }
 @media (max-width: 767px) {
     .container {
@@ -20,6 +46,10 @@
     }
     .title {
         font-size: 27px; 
+        &_left {
+            font-size: 25px;
+            line-height: 35px;
+        }
     }
     .header {
         &__official {
@@ -61,13 +91,25 @@
             font-size: 16px;
         }
     }
+    .carousel {
+        &__inner {
+            width: 500px;
+            img {
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
 }
 @media (max-width: 575px) {
     .container {
         max-width: 540px;
     }
     .title {
-        font-size: 22px;  
+        font-size: 22px;
+        &_left {
+            font-size: 20px;
+        }
     }
     .header {
         &__logo {
@@ -92,7 +134,7 @@
         }
         &__header {
             font-size: 30px;
-            line-height: 30px;
+            line-height: 40px;
         }
         &__subheader {
             font-size: 20px;
@@ -112,6 +154,24 @@
         }
         &__text {
             font-size: 15px;
+        }
+    }
+    .consultation {
+        &__subheader {
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .feed-form {
+            width: 250px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 280px;
+            img {
+                width: 100%;
+                margin: 0 auto;
+            }
         }
     }
 }
