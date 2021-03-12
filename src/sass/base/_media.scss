@@ -221,4 +221,15 @@
             text-align: center;
         }
     }
+    .footer {
+        &__info {
+            position: relative;
+            width: 100%;
+            padding: 25px 15px 25px 15px;
+            height: 240px;
+        }
+        &__addr {
+            font-size: 17px;
+        }
+    }
 }
